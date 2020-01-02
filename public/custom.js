@@ -19,9 +19,7 @@ var html = '<button type="button" class="btn btn-info btn-lg" data-toggle="modal
 $('body').append(html)
 $(document).ready(function(){
   button = document.getElementById('myid')
-  // debugger
   setTimeout(function() {
-   // $("#myBtn").click();
   $(button).click();
 },10000);
 })
