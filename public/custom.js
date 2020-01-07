@@ -5,7 +5,7 @@ var html = '<div id="list-builder">' + '</div>' +
 '<div id="popup-box-content">' + '<h1><span>Signup</span> Now To Get Free Shipping!</h1>' +
 '<p>“ENJOY FREE SHIPPING”</p>'+
 '<div class="custom-btn">'+ '<a href="https://ambassador.saintlbeau.com/?signup=true" class="signup">Signup</a>' +
-'<a href="#" class="cancel popup-close">Cancel</a>'+ '</div>' + '</div>' + '</div>'
+'<button type="button" class="cancel popup-close">Cancel</button>'+ '</div>' + '</div>' + '</div>'
 
 $('body').append(html)
 $(document).ready(function() {
