@@ -3,10 +3,9 @@ $('head').append('<script src="http://code.jquery.com/jquery-3.3.1.min.js"></scr
 var html = '<div id="list-builder">' + '</div>' +
 '<div id="popup-box">'+ '<img src="/close-icon.png" id="popup-close" />' +
 '<div id="popup-box-content">' + '<h1><span>Signup</span> Now To Get Free Shipping!</h1>' +
-'<div class="custom-btn">'+ '<button type="button" class="signup">Signup</button>' +
+'<p>“ENJOY FREE SHIPPING”</p>'+
+'<div class="custom-btn">'+ '<a href="https://ambassador.saintlbeau.com/?signup=true" class="btn btn-success" role="button", >Signup</a>' +
 '<button type="button" class="cancel">Cancel</button>'+ '</div>' + '</div>' + '</div>'
-
-
 
 $('body').append(html)
 $(document).ready(function() {
