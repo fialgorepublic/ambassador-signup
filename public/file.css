@@ -82,7 +82,18 @@
     box-shadow: 1px 2px 5px 0px #00000000;
   }
 
+   #popup-box button:hover{
+    box-shadow: 1px 2px 5px 0px #00000000;
+  }
+
   #popup-box a {
+    cursor: pointer;
+    padding: 10px;
+    border:0px;
+    box-shadow: 1px 2px 5px 0px #00000073;
+  }
+
+    #popup-box button {
     cursor: pointer;
     padding: 10px;
     border:0px;
@@ -94,7 +105,7 @@
     font-size: 16px;
     color: #FFFFFF;}
 
-    #popup-box a.cancel{
+    #popup-box button.cancel{
       background-color: #FFFFFF;
       font-size: 16px;
       color: #252525;}
