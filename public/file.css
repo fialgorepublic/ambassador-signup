@@ -11,6 +11,7 @@
 			background-color: #333;
 			filter: alpha(opacity=80);
 			opacity: 0.8;
+			z-index: 55;
 			display: none;
 		}
 
@@ -19,13 +20,15 @@
 			left: 50%;
 			top: 50%;
 			transform: translate(-50%, -50%);
-			background-color: #ffffff6e;
+			/*background-color: #ffffff6e;*/
+			background-color: #999;
 			color: #FFFFFF;
 			width: 90%;
 			max-width: 600px;
 			padding:10px 30px;
 			border: 10px solid #ffffff94;
 			display: none;
+			z-index: 5555;
 		}
 
 		#popup-close {
