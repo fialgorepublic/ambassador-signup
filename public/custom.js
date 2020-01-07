@@ -4,12 +4,12 @@ var html = '<div id="list-builder">' + '</div>' +
 '<div id="popup-box">'+ '<img src="/close-icon.png" id="popup-close" />' +
 '<div id="popup-box-content">' + '<h1><span>Signup</span> Now To Get Free Shipping!</h1>' +
 '<p>“ENJOY FREE SHIPPING”</p>'+
-'<div class="custom-btn">'+ '<a href="https://ambassador.saintlbeau.com/?signup=true" class="btn btn-success" role="button", >Signup</a>' +
+'<div class="custom-btn">'+ "<button type="button" onclick="location.href='https://ambassador.saintlbeau.com/?signup=true'" class="signup">Signup</button>" +
 '<button type="button" class="cancel">Cancel</button>'+ '</div>' + '</div>' + '</div>'
 
 $('body').append(html)
 $(document).ready(function() {
-  var delay = 300; // milliseconds
+  var delay = 1000; // milliseconds
   var cookie_expire = 0; // days
   var cookie = localStorage.getItem("list-builder");
   if(cookie == undefined || cookie == null) {
