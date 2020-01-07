@@ -73,15 +73,15 @@
     padding:30px 0px 20px;
   }
 
-  #popup-box .custom-btn button a{
+  #popup-box .custom-btn button {
     padding: 10px 50px;
   }
 
-  #popup-box button:hover a:hover{
+  #popup-box button:hover{
     box-shadow: 1px 2px 5px 0px #00000000;
   }
 
-  #popup-box button a{
+  #popup-box button {
     cursor: pointer;
     padding: 10px;
     border:0px;
