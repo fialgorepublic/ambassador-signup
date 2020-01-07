@@ -1,0 +1,85 @@
+*{
+			font-family: sans-serif;
+		}
+
+		#list-builder {
+			position: fixed;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			background-color: #333;
+			filter: alpha(opacity=80);
+			opacity: 0.8;
+			display: none;
+		}
+
+		#popup-box {
+			position: fixed;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%, -50%);
+			background-color: #ffffff6e;
+			color: #FFFFFF;
+			width: 90%;
+			max-width: 600px;
+			padding:10px 30px;
+			border: 10px solid #ffffff94;
+			display: none;
+		}
+
+		#popup-close {
+			position: absolute;
+			top: -25px;
+			right: -25px;
+			cursor: pointer;
+			width: 40px;
+		}
+
+		#popup-box-content{
+			background-color: #dc6464;
+			margin: 20px;
+			box-shadow: 0px 0px 5px 0px #00000073;}
+
+			#popup-box h1{
+				text-align: center;
+				color: #FFFFFF;
+				margin:0px;
+				font-size: 24px;
+				padding: 10px;
+				font-weight: normal;
+			}
+
+			#popup-box h1 span{
+				font-weight: bold;
+			}
+
+			#popup-box .custom-btn{
+				text-align: center;
+				padding:10px 0px 20px;
+			}
+
+			#popup-box .custom-btn button{
+				padding: 10px 50px;
+			}
+
+			#popup-box button:hover{
+				box-shadow: 1px 2px 5px 0px #00000000;
+			}
+
+			#popup-box button{
+				cursor: pointer;
+				padding: 10px;
+				border:0px;
+				box-shadow: 1px 2px 5px 0px #00000073;
+			}
+
+			#popup-box button.signup{
+				background-color: #252525;
+				font-size: 16px;
+				color: #FFFFFF;}
+
+				#popup-box button.cancel{
+					background-color: #FFFFFF;
+					font-size: 16px;
+					color: #252525;}

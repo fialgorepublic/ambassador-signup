@@ -1,25 +1,42 @@
-$('head').append('<link rel="stylesheet" href="https://975ffa93.ngrok.io/file.css">' +
-    '<link rel=\'stylesheet prefetch\' href=\'https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css\'>')
-$('head').append('<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>' + '<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>')
-var html = '<button type="button" class="btn btn-info btn-lg" data-toggle="modal" id="myid" data-target="#myModal" style="display: none;">Click here </button>' + '<div class="modal fade" id="myModal" role="dialog" style="background-color: transparent;">'+'<div class="modal-dialog">'+
-    '<div class="modal-content">'+
-      '<div class="modal-header">'+
-        '<button type="button" class="close" data-dismiss="modal">&times;</button>'+
-      '</div>'+
-      '<div class="modal-body text-center">'+
-        '<h4 class=""><b>Signup Now</b> to get free Shipping</h4>'+
-      '</div>'+
-      '<div class="modal-footer">'+
-        '<a href="https://ambassador.saintlbeau.com/?signup=true" class="btn btn-success" role="button", >Signup</a>'+
-        '<button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>'+
-      '</div>'+
-    '</div>'+
-  '</div>'+
-'</div>'
+$('head').append('<link rel="stylesheet" href="https://popup.saintlbeau.com/file.css">')
+$('head').append('<script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>')
+var html = '<div id="list-builder">' + '</div>' +
+'<div id="popup-box">'+ '<img src="/close-icon.png" id="popup-close" />' +
+'<div id="popup-box-content">' + '<h1><span>Signup</span> Now To Get Free Shipping!</h1>' +
+'<div class="custom-btn">'+ '<button type="button" class="signup">Signup</button>' +
+'<button type="button" class="cancel">Cancel</button>'+ '</div>' + '</div>' + '</div>'
+
+
+
 $('body').append(html)
-$(document).ready(function(){
-  button = document.getElementById('myid')
-  setTimeout(function() {
-  $(button).click();
-},10000);
-})
+$(document).ready(function() {
+  var delay = 300; // milliseconds
+  var cookie_expire = 0; // days
+  var cookie = localStorage.getItem("list-builder");
+  if(cookie == undefined || cookie == null) {
+    cookie = 0;
+  }
+
+  if(((new Date()).getTime() - cookie) / (1000 * 60 * 60 * 24) > cookie_expire) {
+    $("#list-builder").delay(delay).fadeIn("fast", () => {
+      $("#popup-box").fadeIn("fast", () => {});
+    });
+
+    $("button[name=subscribe]").click(() => {
+      $.ajax({
+        type: "POST",
+        url: $("#popup-form").attr("action"),
+        data: $("#popup-form").serialize(),
+        success: (data) => {
+          $("#popup-box-content").html("<p style='text-align: center'>...............!</p>");
+        }
+      });
+    });
+
+    $("#popup-close").click(() => {
+      $("#list-builder, #popup-box").hide();
+      localStorage.setItem("list-builder", (new Date()).getTime());
+    });
+  }
+
+});
