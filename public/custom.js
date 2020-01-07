@@ -1,15 +1,15 @@
 $('head').append('<link rel="stylesheet" href="https://popup.saintlbeau.com/file.css">')
 $('head').append('<script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>')
 var html = '<div id="list-builder">' + '</div>' +
-'<div id="popup-box">'+ '<img src="https://popup.saintlbeau.com//close-icon.png" id="popup-close" />' +
+'<div id="popup-box">'+ '<img src="https://popup.saintlbeau.com//close-icon.png" class="popup-close cross-icon" />' +
 '<div id="popup-box-content">' + '<h1><span>Signup</span> Now To Get Free Shipping!</h1>' +
 '<p>“ENJOY FREE SHIPPING”</p>'+
 '<div class="custom-btn">'+ '<a href="https://ambassador.saintlbeau.com/?signup=true" class="signup">Signup</a>' +
-'<a href="#popup-close" class="cancel">Cancel</a>'+ '</div>' + '</div>' + '</div>'
+'<a href="JavaScript:Void(0);" class="cancel popup-close">Cancel</a>'+ '</div>' + '</div>' + '</div>'
 
 $('body').append(html)
 $(document).ready(function() {
-  var delay = 1000; // milliseconds
+  var delay = 10000; // milliseconds
   var cookie_expire = 0; // days
   var cookie = localStorage.getItem("list-builder");
   if(cookie == undefined || cookie == null) {
@@ -32,7 +32,7 @@ $(document).ready(function() {
       });
     });
 
-    $("#popup-close").click(() => {
+    $(".popup-close").click(() => {
       $("#list-builder, #popup-box").hide();
       localStorage.setItem("list-builder", (new Date()).getTime());
     });

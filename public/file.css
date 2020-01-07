@@ -30,7 +30,7 @@
   z-index: 5555;
 }
 
-#popup-close {
+.cross-icon {
   position: absolute;
   top: -25px;
   right: -25px;
