@@ -20,20 +20,18 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  background-color: #ffffff6e;
   color: #FFFFFF;
   width: 100%;
   max-width: 600px;
   padding:30px 30px;
-  border: 10px solid #ffffff94;
   display: none;
   z-index: 5555;
 }
 
 .cross-icon {
   position: absolute;
-  top: -25px;
-  right: -25px;
+  top: 31px;
+  right: 25px;
   cursor: pointer;
   width: 40px;
 }
