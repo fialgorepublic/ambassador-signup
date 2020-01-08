@@ -2,9 +2,8 @@ $('head').append('<link rel="stylesheet" href="https://popup.saintlbeau.com/file
 $('head').append('<script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>')
 var html = '<div id="list-builder">' + '</div>' +
 '<div id="popup-box">'+ '<img src="https://popup.saintlbeau.com//close-icon.png" class="popup-close cross-icon" />' +
-'<div id="popup-box-content">' + '<h1><span>Signup</span> Now To Get Free Shipping!</h1>' +
-'<p>“ENJOY FREE SHIPPING”</p>'+
-'<div class="custom-btn">'+ '<a href="https://ambassador.saintlbeau.com/?signup=true" class="signup">Signup</a>' +
+'<div id="popup-box-content">' + '<h1>Đăng ký để nhận Free Shipping!</h1>' +
+'<div class="custom-btn">'+ '<a href="https://ambassador.saintlbeau.com/?signup=true" class="signup">Đăng ký</a>' +
 '</div>' + '</div>' + '</div>'
 
 $('body').append(html)

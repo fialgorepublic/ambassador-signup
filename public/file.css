@@ -37,7 +37,7 @@
 }
 
 #popup-box-content{
-  background-color: #dc6464;
+  background-color: #d1371f;
   margin: 20px;
   padding: 30px 0px;
   box-shadow: 0px 0px 5px 0px #00000073;}
@@ -88,7 +88,7 @@
   }
 
   #popup-box a.signup{
-    background-color: #252525;
+    background-color: #d1371f;
     font-size: 16px;
     color: #FFFFFF;}
 
