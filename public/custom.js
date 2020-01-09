@@ -1,17 +1,17 @@
 $('head').append('<link rel="stylesheet" href="https://popup.saintlbeau.com/file.css">')
 $('head').append('<script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>')
 var html = '<div id="list-builder">' + '</div>' +
-'<div id="popup-box">'+ '<img src="https://popup.saintlbeau.com/close-icon.png" class="popup-close cross-icon" />' +
+'<div id="popup-box">'+ '<img src="https://messanger-store.myshopify.com/close-icon.png" class="popup-close cross-icon" />' +
 '<div id="popup-box-content">' + '<div class="main-divv">' + '<div class="row">' +
-'<div class="col-md-6 ">' + '<div class="upper-mg-mob">' + '<a><img src="https://popup.saintlbeau.com/popup box-07.png"></a>' +
+'<div class="col-md-6 ">' + '<div class="upper-mg-mob">' + '<a><img src="https://messanger-store.myshopify.com/popup box-07.png"></a>' +
 '</div>' + '</div>' + '</div>' + '<div class="row">' + '<div class="col-md-6 ">' +
-'<div class="mg-mob">' + '<img src="https://popup.saintlbeau.com/popup box-05.png">' + 
+'<div class="mg-mob">' + '<img src="https://messanger-store.myshopify.com/popup box-05.png">' + 
 '</div>' + '</div>' + '</div>' + '</div>'
 '</div>' + '</div>'
 
 $('body').append(html)
 $(document).ready(function() {
-  if (window.location.href == "https://www.saintlbeau.com/") {
+  // if (window.location.href == "https://www.saintlbeau.com/") {
     var delay = 10000; // milliseconds
     var cookie_expire = 0; // days
     var cookie = localStorage.getItem("list-builder");
@@ -41,5 +41,5 @@ $(document).ready(function() {
       });
     }
 
-  }  
+  // }  
 });
