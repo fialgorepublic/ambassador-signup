@@ -8,6 +8,7 @@
       filter: alpha(opacity=80);
       opacity: 0.8;
       display: none;
+      z-index: 55;
     }
 
     #popup-box {
@@ -23,6 +24,7 @@
       /* border: 10px solid #ffffff94; */
       display: none;
       border-radius: 15px;
+      z-index: 5555;
     }
 
     #popup-close {
