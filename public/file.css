@@ -16,21 +16,21 @@
       left: 50%;
       top: 50%;
       transform: translate(-50%, -50%);
-      background-color: #0a1441;
+      /*background-color: #0a1441;*/
       color: #FFFFFF;
       width: 90%;
       max-width: 600px;
       padding: 10px 30px;
       /* border: 10px solid #ffffff94; */
       display: none;
-      border-radius: 15px;
+      /*border-radius: 15px;*/
       z-index: 5555;
     }
 
     #popup-close {
       position: absolute;
-      top: -20px;
-      right: -18px;
+      top: 31px;
+      right: 25px;
       cursor: pointer;
       width: 40px;
     }
