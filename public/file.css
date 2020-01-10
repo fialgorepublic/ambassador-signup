@@ -33,6 +33,7 @@
       right: 26px;
       cursor: pointer;
       width: 40px;
+      z-index: 111;
     }
 
     #popup-box-content {
