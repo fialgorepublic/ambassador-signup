@@ -29,8 +29,8 @@
 
     #popup-close {
       position: absolute;
-      top: 31px;
-      right: 25px;
+      top: 16px;
+      right: 26px;
       cursor: pointer;
       width: 40px;
     }
