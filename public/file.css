@@ -112,17 +112,22 @@
     max-width: 600px;
     display: none;
     z-index: 5555;
-
+    padding: 0px;
+    margin-top: 40px;
  }
 
  #popup-close {
     position: absolute;
-    top: 87px;
-    right: 27px;
+    top: 68px;
+    right: 5px;
     cursor: pointer;
     width: 70px;
     z-index: 111;
-}
+  }
+
+  #popup-box-content {
+    background-color: transparent;
+  }
 }
 
 
@@ -146,17 +151,22 @@
     max-width: 600px;
     display: none;
     z-index: 5555;
-
+    padding: 0px;
+    margin-top: 40px;
  }
 
  #popup-close {
     position: absolute;
-    top: 87px;
-    right: 27px;
+    top: 59px;
+    right: -15px;
     cursor: pointer;
     width: 70px;
     z-index: 111;
-}
+  }
+
+  #popup-box-content {
+    background-color: transparent;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -178,15 +188,21 @@
     max-width: 600px;
     display: none;
     z-index: 5555;
+    padding: 0px;
+    margin-top: 40px;
   }
 
   #popup-close {
     position: absolute;
-    top: 87px;
-    right: 27px;
+    top: 59px;
+    right: -15px;
     cursor: pointer;
     width: 70px;
     z-index: 111;
+  }
+
+  #popup-box-content {
+    background-color: transparent;
   }
 }
 
@@ -210,14 +226,20 @@ and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71){
     max-width: 600px;
     display: none;
     z-index: 5555;
+    padding: 0px;
+    margin-top: 40px;
   }
 
   #popup-close {
     position: absolute;
-    top: 87px;
-    right: 27px;
+    top: 59px;
+    right: -15px;
     cursor: pointer;
     width: 70px;
     z-index: 111;
+  }
+
+  #popup-box-content {
+    background-color: transparent;
   }
 }
