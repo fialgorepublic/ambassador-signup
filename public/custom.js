@@ -4,7 +4,7 @@ var html = '<div id="list-builder">' + '</div>' +
 '<div id="popup-box">'+ '<img src="https://popup.saintlbeau.com/close-icon.png" id="popup-close" />' +
 '<div id="popup-box-content">' + '<div class="main-divv">' + '<div class="row">' +
 '<div class=" ">' + '<div class="upper-mg-mob">' + '<a href="https://ambassador.saintlbeau.com/?signup=true" class="signup"><img src="https://popup.saintlbeau.com/popup box-07.png" style="z-index: 111"></a>' +
-'</div>' + '</div>' + '</div>' + '<div class="row">' + '<div class="col-md-12 ">' +
+'</div>' + '</div>' + '</div>' + '<div class="row">' + '<div class="">' +
 '<div class="mg-mob">' + '<img src="https://popup.saintlbeau.com/popup box-05.png">' + 
 '</div>' + '</div>' + '</div>' + '</div>'
 '</div>' + '</div>'
