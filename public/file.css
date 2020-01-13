@@ -27,7 +27,7 @@
 }
 #popup-close {
   position: absolute;
-  top: 70px;
+  top: 90px;
   right: 33px;
   cursor: pointer;
   width: 70px;
@@ -80,18 +80,48 @@
   height: 300px;
 }
 .upper-mg-mob img {
-  height: 100px;
-  position: absolute;
-  right: 112px;
-  bottom: 41px;
-  width: 170px;
-  height: 55px;
+    height: 100px;
+    position: absolute;
+    right: 85px;
+    bottom: 47px;
+    width: 170px;
+    height: 55px;
 }
 .main-divv {
   position: relative;
 }
 
+@media only screen and (max-width: 500px) {
+
+  .upper-mg-mob img {
+    height: 100px;
+    position: absolute;
+    right: 3px;
+    bottom: 47px;
+    width: 98px;
+    height: 49px;
+  }
+}
 
 
+@media only screen and (max-width: 600px) {
+  .upper-mg-mob img {
+    height: 100px;
+    position: absolute;
+    right: 3px;
+    bottom: 47px;
+    width: 98px;
+    height: 49px;
+  }
+}
 
-
+@media only screen and (max-width: 600px) {
+  .upper-mg-mob img {
+    height: 100px;
+    position: absolute;
+    right: 28px;
+    bottom: 47px;
+    width: 98px;
+    height: 49px;
+  }
+}
