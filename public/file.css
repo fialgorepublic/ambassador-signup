@@ -166,6 +166,7 @@
 
   #popup-box-content {
     background-color: transparent;
+    margin:0px;
   }
 }
 
@@ -201,8 +202,10 @@
     z-index: 111;
   }
 
+
   #popup-box-content {
     background-color: transparent;
+    margin:0px;
   }
 }
 
@@ -227,19 +230,21 @@ and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71){
     display: none;
     z-index: 5555;
     padding: 0px;
-    margin-top: 40px;
+    margin-top: 90px;
   }
 
   #popup-close {
     position: absolute;
-    top: 59px;
+    top: 50px;
     right: -15px;
     cursor: pointer;
     width: 70px;
     z-index: 111;
   }
 
+  
   #popup-box-content {
     background-color: transparent;
+    margin:0px;
   }
 }
