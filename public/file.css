@@ -101,6 +101,28 @@
     width: 98px;
     height: 49px;
   }
+
+ #popup-box {
+  position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+    width: 90%;
+    max-width: 600px;
+    display: none;
+    z-index: 5555;
+
+ }
+
+ #popup-close {
+    position: absolute;
+    top: 76px;
+    right: 6px;
+    cursor: pointer;
+    width: 70px;
+    z-index: 111;
+}
 }
 
 
@@ -113,6 +135,28 @@
     width: 98px;
     height: 49px;
   }
+
+  #popup-box {
+  position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+    width: 90%;
+    max-width: 600px;
+    display: none;
+    z-index: 5555;
+
+ }
+
+ #popup-close {
+    position: absolute;
+    top: 76px;
+    right: 6px;
+    cursor: pointer;
+    width: 70px;
+    z-index: 111;
+}
 }
 
 @media only screen and (max-width: 600px) {
@@ -123,6 +167,26 @@
     bottom: 47px;
     width: 98px;
     height: 49px;
+  }
+  #popup-box {
+  position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+    width: 90%;
+    max-width: 600px;
+    display: none;
+    z-index: 5555;
+  }
+
+  #popup-close {
+    position: absolute;
+    top: 76px;
+    right: 6px;
+    cursor: pointer;
+    width: 70px;
+    z-index: 111;
   }
 }
 
@@ -135,5 +199,25 @@ and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71){
     bottom: 47px;
     width: 98px;
     height: 49px;
+  }
+  #popup-box {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+    width: 90%;
+    max-width: 600px;
+    display: none;
+    z-index: 5555;
+  }
+
+  #popup-close {
+    position: absolute;
+    top: 76px;
+    right: 6px;
+    cursor: pointer;
+    width: 70px;
+    z-index: 111;
   }
 }
