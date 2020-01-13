@@ -117,8 +117,8 @@
 
  #popup-close {
     position: absolute;
-    top: 76px;
-    right: 6px;
+    top: 87px;
+    right: 27px;
     cursor: pointer;
     width: 70px;
     z-index: 111;
@@ -151,8 +151,8 @@
 
  #popup-close {
     position: absolute;
-    top: 76px;
-    right: 6px;
+    top: 87px;
+    right: 27px;
     cursor: pointer;
     width: 70px;
     z-index: 111;
@@ -182,8 +182,8 @@
 
   #popup-close {
     position: absolute;
-    top: 76px;
-    right: 6px;
+    top: 87px;
+    right: 27px;
     cursor: pointer;
     width: 70px;
     z-index: 111;
@@ -214,8 +214,8 @@ and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71){
 
   #popup-close {
     position: absolute;
-    top: 76px;
-    right: 6px;
+    top: 87px;
+    right: 27px;
     cursor: pointer;
     width: 70px;
     z-index: 111;
