@@ -94,12 +94,16 @@
 @media only screen and (max-width: 500px) {
 
   .upper-mg-mob img {
+  z-index: 111;
     height: 100px;
     position: absolute;
-    right: 3px;
+    /* right: 65px; */
     bottom: 10%;
+    height: 44px;
     width: 98px;
-    height: 49px;
+    left: 66%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
   }
 
  #popup-box {
@@ -133,12 +137,16 @@
 
 @media only screen and (max-width: 600px) {
   .upper-mg-mob img {
+  z-index: 111;
     height: 100px;
     position: absolute;
-    right: 3px;
+    /* right: 65px; */
     bottom: 10%;
+    height: 44px;
     width: 98px;
-    height: 49px;
+    left: 66%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
   }
 
   #popup-box {
@@ -174,12 +182,16 @@
 
 @media only screen and (max-width: 600px) {
   .upper-mg-mob img {
+z-index: 111;
     height: 100px;
     position: absolute;
-    right: 28px;
+    /* right: 65px; */
     bottom: 10%;
+    height: 44px;
     width: 98px;
-    height: 49px;
+    left: 66%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
   }
   #popup-box {
   position: fixed;
@@ -214,12 +226,16 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) 
 and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71){
   .upper-mg-mob img {
+  z-index: 111;
     height: 100px;
     position: absolute;
-    right: 5px;
+    /* right: 65px; */
     bottom: 10%;
+    height: 44px;
     width: 98px;
-    height: 49px;
+    left: 66%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
   }
   #popup-box {
     position: fixed;
