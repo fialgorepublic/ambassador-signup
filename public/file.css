@@ -99,7 +99,7 @@
     position: absolute;
     /* right: 65px; */
     bottom: 10%;
-    height: 44px;
+    height: 40px;
     width: 98px;
     left: 66%;
     -webkit-transform: translateX(-50%);
@@ -142,7 +142,7 @@
     position: absolute;
     /* right: 65px; */
     bottom: 10%;
-    height: 44px;
+    height: 40px;
     width: 98px;
     left: 66%;
     -webkit-transform: translateX(-50%);
@@ -187,7 +187,7 @@ z-index: 111;
     position: absolute;
     /* right: 65px; */
     bottom: 10%;
-    height: 44px;
+    height: 40px;
     width: 98px;
     left: 66%;
     -webkit-transform: translateX(-50%);
@@ -231,7 +231,7 @@ and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71){
     position: absolute;
     /* right: 65px; */
     bottom: 10%;
-    height: 44px;
+    height: 40px;
     width: 98px;
     left: 66%;
     -webkit-transform: translateX(-50%);
