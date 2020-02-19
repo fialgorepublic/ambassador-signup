@@ -27,8 +27,8 @@
 }
 #popup-close {
   position: absolute;
-  top: 80px;
-  right: 5px;
+  top: 93px;
+  right: -5px;
   cursor: pointer;
   width: 70px;
   z-index: 111;
@@ -122,8 +122,8 @@
 
  #popup-close {
     position: absolute;
-    top: 90px;
-    right: -5px;
+    top: 80px;
+    right: 10px;
     cursor: pointer;
     width: 70px;
     z-index: 111;
