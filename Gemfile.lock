@@ -120,7 +120,7 @@ GEM
     multi_xml (0.6.0)
     multipart-post (2.1.1)
     nio4r (2.5.2)
-    nokogiri (1.10.7)
+    nokogiri (1.10.8)
       mini_portile2 (~> 2.4.0)
     oauth2 (1.1.0)
       faraday (>= 0.8, < 0.10)
@@ -244,6 +244,7 @@ DEPENDENCIES
   rails (~> 5.2.4)
   sass-rails (~> 5.0)
   selenium-webdriver
+  shopify_api (= 4.3.5)
   shopify_app (= 7.2.9)
   spring
   spring-watcher-listen (~> 2.0.0)
