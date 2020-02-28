@@ -13,7 +13,7 @@
 #popup-box {
   position: fixed;
   left: 50%;
-  top: 50%;
+  top: 30%;
   transform: translate(-50%, -50%);
   /*background-color: #0A1441;*/
   color: #FFFFFF;
@@ -109,7 +109,7 @@
  #popup-box {
   position: fixed;
     left: 50%;
-    top: 50%;
+    top: 30%;
     transform: translate(-50%, -50%);
     color: #FFFFFF;
     width: 90%;
@@ -152,7 +152,7 @@
   #popup-box {
   position: fixed;
     left: 50%;
-    top: 50%;
+    top: 30%;
     transform: translate(-50%, -50%);
     color: #FFFFFF;
     width: 90%;
@@ -196,7 +196,7 @@ z-index: 111;
   #popup-box {
   position: fixed;
     left: 50%;
-    top: 50%;
+    top: 30%;
     transform: translate(-50%, -50%);
     color: #FFFFFF;
     width: 90%;
@@ -240,7 +240,7 @@ and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71){
   #popup-box {
     position: fixed;
     left: 50%;
-    top: 50%;
+    top: 30%;
     transform: translate(-50%, -50%);
     color: #FFFFFF;
     width: 90%;
