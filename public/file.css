@@ -27,7 +27,7 @@
 }
 #popup-close {
   position: absolute;
-  top: 28px;
+  top: 70px;
   right: -5px;
   cursor: pointer;
   width: 70px;
@@ -242,7 +242,7 @@ and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71){
   #popup-box {
     position: fixed;
     left: 50%;
-       top: 6%;
+       top: 6% !important;
 
     transform: translate(-50%, -50%);
     color: #FFFFFF;
