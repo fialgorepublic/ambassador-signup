@@ -11,7 +11,7 @@ var html = '<div id="list-builder">' + '</div>' +
 
 $('body').append(html)
 $(document).ready(function() {
-  // if (window.location.href == "https://www.saintlbeau.com/") {
+  if (window.location.href == "https://www.saintlbeau.com/") {
     var delay = 10000; // milliseconds
     var cookie_expire = 0; // days
     var cookie = localStorage.getItem("list-builder");
@@ -41,5 +41,5 @@ $(document).ready(function() {
       });
     }
 
-  // }  
+  }  
 });
