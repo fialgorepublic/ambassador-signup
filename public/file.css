@@ -13,12 +13,12 @@
 #popup-box {
   position: fixed;
   left: 50%;
-  top: 30%;
+  top: 22%;
   transform: translate(-50%, -50%);
   /*background-color: #0A1441;*/
   color: #FFFFFF;
   width: 90%;
-  max-width: 600px;
+  max-width: 450px;
   /*padding: 10px 30px;*/
   /* border: 10px solid #FFFFFF94; */
   display: none;
@@ -27,7 +27,7 @@
 }
 #popup-close {
   position: absolute;
-  top: 93px;
+  top: 28px;
   right: -5px;
   cursor: pointer;
   width: 70px;
@@ -82,7 +82,7 @@
 .upper-mg-mob img {
     height: 100px;
     position: absolute;
-    right: 115px;
+    right: 30px;
     bottom: 50px;
     width: 170px;
     height: 55px;
@@ -109,7 +109,8 @@
  #popup-box {
   position: fixed;
     left: 50%;
-    top: 30%;
+      top: 22%;
+
     transform: translate(-50%, -50%);
     color: #FFFFFF;
     width: 90%;
@@ -152,7 +153,8 @@
   #popup-box {
   position: fixed;
     left: 50%;
-    top: 30%;
+      top: 22%;
+
     transform: translate(-50%, -50%);
     color: #FFFFFF;
     width: 90%;
@@ -196,7 +198,7 @@ z-index: 111;
   #popup-box {
   position: fixed;
     left: 50%;
-    top: 30%;
+    top: 22%;
     transform: translate(-50%, -50%);
     color: #FFFFFF;
     width: 90%;
@@ -240,7 +242,8 @@ and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71){
   #popup-box {
     position: fixed;
     left: 50%;
-    top: 30%;
+       top: 6%;
+
     transform: translate(-50%, -50%);
     color: #FFFFFF;
     width: 90%;
@@ -264,5 +267,12 @@ and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71){
   #popup-box-content {
     background-color: transparent;
     margin:0px;
+  }
+}
+
+
+@media only screen and (max-device-width: 800px){
+#popup-box {
+  top: 22%;
   }
 }
