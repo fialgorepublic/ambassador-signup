@@ -13,7 +13,7 @@
 #popup-box {
   position: fixed;
   left: 50%;
-  top: 22%;
+  top: 40%;
   transform: translate(-50%, -50%);
   /*background-color: #0A1441;*/
   color: #FFFFFF;
