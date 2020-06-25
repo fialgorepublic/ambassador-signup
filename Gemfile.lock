@@ -140,7 +140,7 @@ GEM
     pg (1.1.4)
     public_suffix (4.0.1)
     puma (3.12.2)
-    rack (2.0.7)
+    rack (2.2.3)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
     rails (5.2.4)
@@ -244,6 +244,7 @@ DEPENDENCIES
   rails (~> 5.2.4)
   sass-rails (~> 5.0)
   selenium-webdriver
+  shopify_api (= 4.3.5)
   shopify_app (= 7.2.9)
   spring
   spring-watcher-listen (~> 2.0.0)
