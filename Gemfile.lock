@@ -212,7 +212,7 @@ GEM
     turbolinks (5.2.1)
       turbolinks-source (~> 5.2)
     turbolinks-source (5.2.0)
-    tzinfo (1.2.5)
+    tzinfo (1.2.10)
       thread_safe (~> 0.1)
     uglifier (4.2.0)
       execjs (>= 0.3.0, < 3)
@@ -244,6 +244,7 @@ DEPENDENCIES
   rails (~> 5.2.4)
   sass-rails (~> 5.0)
   selenium-webdriver
+  shopify_api (= 4.3.5)
   shopify_app (= 7.2.9)
   spring
   spring-watcher-listen (~> 2.0.0)
